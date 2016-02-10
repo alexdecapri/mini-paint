@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var colors = "white green red blue yellow";
 
 	$(".box").on("click", function() {
-		$(this).addClass("white");
+		$(this).addClass(color);
 	});
 
 	$(".box").on("dblclick", function() {
@@ -35,5 +35,9 @@ $(document).ready(function() {
   	$('#white').on('click', function() {
     	color = 'white';
   	})
+
+
+
+// combine mousedown and mouseenter methods to make it more like MS paint
 
 });
